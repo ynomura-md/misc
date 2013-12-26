@@ -6,7 +6,7 @@ use MIME::Base64::URLSafe;
 
 # usage
 # carton install
-# perl -I local/lib/perl5/ hoge.pl "KEY" "URL SAFE BASE64 ENCODED TEXT"
+# perl -I local/lib/perl5/ decoder.pl "KEY" "URL SAFE BASE64 ENCODED TEXT"
 
 my $key = $ARGV[0];
 my $encoded_text = $ARGV[1];
